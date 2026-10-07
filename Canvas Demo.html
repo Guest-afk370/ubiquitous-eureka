@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Canvas Demo Access Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(81, 102, 255, 0.28), transparent 30%),
+        linear-gradient(180deg, #0f1220, #070910 100%);
+      color: #f4f7ff;
+    }
+
+    .panel {
+      width: min(640px, 100%);
+      border-radius: 24px;
+      padding: 30px;
+      background: rgba(11, 14, 29, 0.88);
+      box-shadow: 0 25px 80px rgba(0,0,0,0.45);
+      border: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: #ffffff;
+    }
+
+    p {
+      margin: 0 0 22px;
+      line-height: 1.75;
+      color: #d7e5ff;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: #9bdcff;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      background: #ffffff;
+      color: #1f1f1f;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <span class="tag">Local Demo Only</span>
+    <h1>Canvas Demo Access Portal</h1>
+    <p>This page is a clearly labeled local demo placeholder. It is not an official Canvas session and is only used to demonstrate the Infrastructure access flow.</p>
+    <a href="index.html">Back to Home</a>
+  </div>
+</body>
+</html>
